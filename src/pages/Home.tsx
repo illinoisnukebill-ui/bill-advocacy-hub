@@ -51,7 +51,7 @@ const Home = () => {
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
                     <Users className="h-6 w-6 text-primary-foreground" />
                   </div>
-                  <CardTitle>Data Privacy Rights</CardTitle>
+                  <CardTitle>Progress and Scientific Achievement</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
