@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, Users, FileText, Share2 } from "lucide-react";
 import { Link } from "react-router-dom";
+import NuclearButton from "@/components/NuclearButton";
 
 const Home = () => {
   return (
@@ -166,6 +167,25 @@ const Home = () => {
               </Card>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Nuclear Button Section */}
+      <section className="py-16 bg-gradient-to-b from-slate-950 to-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-red-500">
+              🚨 Classified Section 🚨
+            </h2>
+            <p className="text-yellow-500 text-lg">
+              This interactive demo shows what happens when technology operates without oversight.
+              <br />
+              <span className="text-sm text-muted-foreground">
+                (It's just for fun - no actual danger involved!)
+              </span>
+            </p>
+          </div>
+          <NuclearButton />
         </div>
       </section>
 
