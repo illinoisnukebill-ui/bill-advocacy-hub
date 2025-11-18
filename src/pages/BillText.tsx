@@ -39,7 +39,7 @@ export default function BillText() {
             )}
 
             <iframe
-              src="/ThermonuclearEnergyGenerationDevice_Draft1.pdf"
+              src="ThermonuclearEnergyGenerationDevice_Draft1.pdf"
               className="w-full h-full"
               title="PDF Viewer"
               onLoad={() => setLoading(false)}
