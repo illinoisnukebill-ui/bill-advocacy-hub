@@ -44,8 +44,6 @@ const Support = () => {
                   Sign the Petition via Google Forms
                 </Button>
               </a>
-              <p className="text-sm text-muted-foreground mt-4">
-              </p>
             </CardContent>
           </Card>
 
@@ -61,15 +59,12 @@ const Support = () => {
                     <Mail className="h-6 w-6 text-primary-foreground" />
                   </div>
                   <CardTitle>Contact Your Representatives</CardTitle>
-                  <CardDescription>
-                    Send an email or letter to us!!
-                  </CardDescription>
+                  <CardDescription>Send an email or letter to us!!</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-card-foreground mb-4">
                     Let us know we have your support.
                   </p>
-      
                 </CardContent>
               </Card>
 
@@ -79,15 +74,14 @@ const Support = () => {
                     <Share2 className="h-6 w-6 text-accent-foreground" />
                   </div>
                   <CardTitle>Spread the Word</CardTitle>
-                  <CardDescription>
-                    Share on social media
-                  </CardDescription>
+                  <CardDescription>Share on social media</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-card-foreground mb-4">
                     Help raise awareness by sharing this campaign with your friends, family, and followers 
                     on social media platforms.
                   </p>
+
                   <div className="space-y-2">
                     <Button
                       variant="outline"
@@ -95,17 +89,24 @@ const Support = () => {
                       onClick={() => {
                         const url = window.location.origin;
                         const text = "give illinois a nuke cause it'd be really sweet #nukes #YAG";
-                        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+                        window.open(
+                          `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
+                          "_blank"
+                        );
                       }}
                     >
                       Share on Twitter/X
                     </Button>
+
                     <Button
                       variant="outline"
                       className="w-full"
                       onClick={() => {
                         const url = window.location.origin;
-                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+                        window.open(
+                          `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+                          "_blank"
+                        );
                       }}
                     >
                       Share on Facebook
@@ -120,15 +121,14 @@ const Support = () => {
                     <MessageSquare className="h-6 w-6 text-primary-foreground" />
                   </div>
                   <CardTitle>Join the Conversation</CardTitle>
-                  <CardDescription>
-                    Engage with the community
-                  </CardDescription>
+                  <CardDescription>Engage with the community</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-card-foreground mb-4">
                     Follow us on social media, attend virtual town halls, and participate in discussions 
                     about nuclear assurance.
                   </p>
+
                   <a
                     href="https://www.instagram.com"
                     target="_blank"
@@ -143,6 +143,8 @@ const Support = () => {
             </div>
           </div>
 
+        </div> {/* closes max-w-4xl */}
+      </div> {/* closes container */}
 
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 mt-12">
@@ -158,3 +160,4 @@ const Support = () => {
 };
 
 export default Support;
+
