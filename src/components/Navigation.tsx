@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <NavLink to="/" className="text-xl font-bold hover:opacity-80 transition-opacity">
-            Citizens' Rights Act
+            Nuclear Operationalization Act
           </NavLink>
 
           {/* Desktop Navigation */}
