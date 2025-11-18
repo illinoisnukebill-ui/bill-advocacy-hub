@@ -34,7 +34,7 @@ const Support = () => {
                 Your signature will be delivered to Congress to demonstrate widespread support for this legislation.
               </p>
               <a
-                href="https://docs.google.com/forms"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfFzzzl6Gbfg92CryjCPJDd9BvDmjyD_dKBI6sUxX_sVXjVSA/viewform?usp=publish-editor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
