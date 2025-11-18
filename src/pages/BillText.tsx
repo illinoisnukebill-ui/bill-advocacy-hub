@@ -61,6 +61,3 @@ export default function BillText() {
   );
 }
 
-
-export default BillText;
-
