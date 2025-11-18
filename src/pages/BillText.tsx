@@ -12,9 +12,7 @@ const BillText = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-              
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground"></h1>
             <p className="text-xl text-muted-foreground mb-6">
               H.R. 2025 - 119th Congress (2025-2026)
             </p>
@@ -29,18 +27,21 @@ const BillText = () => {
               </Button>
             </div>
           </div>
-<iframe
-  src="/ThermonuclearEnergyGenerationDevice_Draft1.pdf"
-  className="w-full h-screen"
-  title="PDF Viewer"
-/>
+
+          <iframe
+            src="/ThermonuclearEnergyGenerationDevice_Draft1.pdf"
+            className="w-full h-screen"
+            title="PDF Viewer"
+          />
+        </div>
+      </div>
 
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 mt-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">© 2025 Citizens' Digital Rights Campaign</p>
+          <p className="mb-2">© 2025 Nuke Campaign</p>
           <p className="text-sm opacity-75">
-            A grassroots movement for digital privacy and transparency
+            A grassroots movement for Illinois Protection
           </p>
         </div>
       </footer>
@@ -49,3 +50,4 @@ const BillText = () => {
 };
 
 export default BillText;
+
