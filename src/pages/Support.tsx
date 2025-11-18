@@ -13,7 +13,7 @@ const Support = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-              Support the Citizens' Digital Rights Act
+              Support the Nuke
             </h1>
             <p className="text-xl text-muted-foreground">
               Your voice can make a difference. Take action today to protect Illinois Citizens.
@@ -59,7 +59,7 @@ const Support = () => {
                     <Mail className="h-6 w-6 text-primary-foreground" />
                   </div>
                   <CardTitle>Contact Your Representatives</CardTitle>
-                  <CardDescription>Send an email or letter to us!!</CardDescription>
+                  <CardDescription>Send an email or letter to us!! illinoisnukebill@gmail.com </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-card-foreground mb-4">
@@ -130,7 +130,7 @@ const Support = () => {
                   </p>
 
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/nukebill4yag/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
