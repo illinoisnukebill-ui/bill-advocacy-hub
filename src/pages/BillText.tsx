@@ -1,9 +1,11 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Download, Share2 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 
-const BillText = () => {
+export default function BillText() {
+  const [loading, setLoading] = useState(true);
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -28,11 +30,21 @@ const BillText = () => {
             </div>
           </div>
 
-          <iframe
-            src="/ThermonuclearEnergyGenerationDevice_Draft1.pdf"
-            className="w-full h-screen"
-            title="PDF Viewer"
-          />
+          {/* PDF Viewer */}
+          <div className="w-full h-screen border rounded-lg overflow-hidden relative">
+            {loading && (
+              <div className="absolute inset-0 flex items-center justify-center bg-background/80 backdrop-blur-sm z-10">
+                <div className="animate-spin rounded-full h-10 w-10 border-4 border-primary border-t-transparent"></div>
+              </div>
+            )}
+
+            <iframe
+              src="/ThermonuclearEnergyGenerationDevice_Draft1.pdf"
+              className="w-full h-full"
+              title="PDF Viewer"
+              onLoad={() => setLoading(false)}
+            />
+          </div>
         </div>
       </div>
 
@@ -47,7 +59,8 @@ const BillText = () => {
       </footer>
     </div>
   );
-};
+}
+
 
 export default BillText;
 
