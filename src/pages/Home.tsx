@@ -15,10 +15,10 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              The Citizens' Digital Rights Act of 2025
+              The Nuclear Operationalization Act
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Protecting privacy, ensuring transparency, and empowering every citizen in the digital age
+              Vote for us or we'll nuke you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/bill">
@@ -55,8 +55,7 @@ const Home = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
-                    Establishes fundamental rights to control personal data, including the right to access, 
-                    delete, and port your information across platforms.
+                    Establishes the necessary infrastructure and resources to make Illinois the number one strategic nuke hub in the USA
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -66,12 +65,11 @@ const Home = () => {
                   <div className="w-12 h-12 bg-civic-blue rounded-lg flex items-center justify-center mb-4">
                     <FileText className="h-6 w-6 text-primary-foreground" />
                   </div>
-                  <CardTitle>Algorithm Transparency</CardTitle>
+                  <CardTitle>Jobs</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
-                    Requires companies to disclose how algorithms make decisions that affect citizens' 
-                    lives, from job applications to loan approvals.
+                   Will create tens of thousands of jobs through large facilities and infrastructure that will require maintenance and the filling of roles from all skill levels.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -81,12 +79,11 @@ const Home = () => {
                   <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
                     <CheckCircle2 className="h-6 w-6 text-accent-foreground" />
                   </div>
-                  <CardTitle>Digital Protection</CardTitle>
+                  <CardTitle>Deterrence</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
-                    Creates enforcement mechanisms and penalties for violations, ensuring companies 
-                    prioritize citizen rights over profits.
+                 No one will never threaten to harm Illinois again. (cuz we'll have a nuke.)
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -100,16 +97,14 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-              Key Provisions
+              Key Points
             </h2>
             <div className="space-y-4">
               {[
-                "Right to know what data is collected and how it's used",
-                "Right to delete personal information from company databases",
-                "Mandatory data breach notifications within 72 hours",
-                "Opt-in consent required for data sharing with third parties",
-                "Independent oversight committee with enforcement authority",
-                "Civil penalties up to $50 million for willful violations",
+                "Important infrastructure",
+                "Reframing of crucial resources",
+                "creation of jobs",
+                "Protection in the hands of the people",
               ].map((point, index) => (
                 <div key={index} className="flex items-start gap-3 bg-card p-4 rounded-lg">
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
@@ -141,7 +136,7 @@ const Home = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Let your elected officials know you support digital rights protections.
+                   let us know you support this bill, network with us and provide critique and communication. This is yours, as much as it is ours.
                   </p>
                   <Link to="/support">
                     <Button className="w-full">Find Contact Info</Button>
@@ -158,7 +153,7 @@ const Home = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Share this bill on social media and talk to friends and family.
+                    Share this bill on social media and talk to other delegates.
                   </p>
                   <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
                     Share Now
@@ -181,7 +176,7 @@ const Home = () => {
               This interactive demo shows what happens when technology operates without oversight.
               <br />
               <span className="text-sm text-muted-foreground">
-                (It's just for fun - no actual danger involved!)
+                (pressing this button will launch a real nuke a REAL NUKE BE CAREFUL AND PLEASE DONT PRESS IT)
               </span>
             </p>
           </div>
@@ -203,15 +198,13 @@ const Home = () => {
               <div className="mb-6">
                 <Share2 className="h-16 w-16 mx-auto text-primary mb-4" />
                 <p className="text-xl font-semibold text-card-foreground mb-2">
-                  @CitizensDigitalRights
+                  @NukeBill4YAG
                 </p>
                 <p className="text-muted-foreground">
-                  Instagram feed would appear here. To embed your Instagram feed, you'll need to use 
-                  Instagram's embed code or a third-party service like SnapWidget or EmbedSocial.
                 </p>
               </div>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/nukebill4yag/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -228,9 +221,9 @@ const Home = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">© 2025 Citizens' Digital Rights Campaign</p>
+          <p className="mb-2">© 2025 Nuclear Operationalization Campaign</p>
           <p className="text-sm opacity-75">
-            A grassroots movement for digital privacy and transparency
+            A grassroots movement for putting safety in the hands of the people
           </p>
         </div>
       </footer>
