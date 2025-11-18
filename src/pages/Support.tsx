@@ -16,7 +16,7 @@ const Support = () => {
               Support the Citizens' Digital Rights Act
             </h1>
             <p className="text-xl text-muted-foreground">
-              Your voice can make a difference. Take action today to protect digital rights for all.
+              Your voice can make a difference. Take action today to protect Illinois Citizens.
             </p>
           </div>
 
@@ -25,12 +25,12 @@ const Support = () => {
             <CardHeader className="bg-gradient-to-br from-primary to-civic-blue text-primary-foreground">
               <CardTitle className="text-2xl">Sign the Petition</CardTitle>
               <CardDescription className="text-primary-foreground/90">
-                Add your name to show your support for digital rights protections
+                Add your name to show your support for Nuclear Warfare.
               </CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
               <p className="mb-6 text-card-foreground">
-                Join thousands of citizens calling for comprehensive digital privacy protections. 
+                Join thousands of citizens calling for comprehensive nuclear protection.
                 Your signature will be delivered to Congress to demonstrate widespread support for this legislation.
               </p>
               <a
@@ -45,7 +45,6 @@ const Support = () => {
                 </Button>
               </a>
               <p className="text-sm text-muted-foreground mt-4">
-                Note: Replace the Google Forms link above with your actual petition form URL
               </p>
             </CardContent>
           </Card>
@@ -63,48 +62,14 @@ const Support = () => {
                   </div>
                   <CardTitle>Contact Your Representatives</CardTitle>
                   <CardDescription>
-                    Send an email or letter to your elected officials
+                    Send an email or letter to us!!
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-card-foreground mb-4">
-                    Let your senators and representatives know you support this bill. Personal messages 
-                    from constituents have real impact.
+                    Let us know we have your support.
                   </p>
-                  <a
-                    href="https://www.congress.gov/members/find-your-member"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline" className="w-full gap-2">
-                      <ExternalLink className="h-4 w-4" />
-                      Find Your Representatives
-                    </Button>
-                  </a>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="w-12 h-12 bg-civic-blue rounded-lg flex items-center justify-center mb-4">
-                    <Phone className="h-6 w-6 text-primary-foreground" />
-                  </div>
-                  <CardTitle>Call Congress</CardTitle>
-                  <CardDescription>
-                    Make your voice heard with a phone call
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-card-foreground mb-4">
-                    Phone calls are one of the most effective ways to communicate with legislators. 
-                    Keep it brief and be polite.
-                  </p>
-                  <a href="tel:202-224-3121">
-                    <Button variant="outline" className="w-full gap-2">
-                      <Phone className="h-4 w-4" />
-                      Capitol Switchboard: (202) 224-3121
-                    </Button>
-                  </a>
+      
                 </CardContent>
               </Card>
 
@@ -129,7 +94,7 @@ const Support = () => {
                       className="w-full"
                       onClick={() => {
                         const url = window.location.origin;
-                        const text = "Support the Citizens' Digital Rights Act! Protect privacy and digital rights for all. #DigitalRights #Privacy";
+                        const text = "give illinois a nuke cause it'd be really sweet #nukes #YAG";
                         window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
                       }}
                     >
@@ -162,7 +127,7 @@ const Support = () => {
                 <CardContent>
                   <p className="text-card-foreground mb-4">
                     Follow us on social media, attend virtual town halls, and participate in discussions 
-                    about digital rights and privacy.
+                    about nuclear assurance.
                   </p>
                   <a
                     href="https://www.instagram.com"
@@ -178,50 +143,13 @@ const Support = () => {
             </div>
           </div>
 
-          {/* Sample Message */}
-          <Card className="bg-civic-light">
-            <CardHeader>
-              <CardTitle>Sample Message to Representatives</CardTitle>
-              <CardDescription>
-                Use this template when contacting your elected officials
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="bg-card p-6 rounded-lg">
-                <p className="text-card-foreground italic leading-relaxed">
-                  "Dear [Representative/Senator Name],
-                  <br /><br />
-                  As your constituent, I am writing to urge you to support the Citizens' Digital Rights 
-                  Act of 2025. This legislation would establish much-needed protections for personal privacy 
-                  in the digital age, ensure transparency in algorithmic decision-making, and create 
-                  meaningful enforcement mechanisms.
-                  <br /><br />
-                  In an era where our personal data is constantly collected and used in ways we often don't 
-                  understand or consent to, it is critical that Congress act to protect citizens' fundamental 
-                  rights. This bill represents a balanced approach that protects individual privacy while 
-                  allowing legitimate business operations to continue.
-                  <br /><br />
-                  I strongly encourage you to co-sponsor and vote for this important legislation.
-                  <br /><br />
-                  Thank you for your consideration.
-                  <br /><br />
-                  Sincerely,<br />
-                  [Your Name]<br />
-                  [Your Address]<br />
-                  [Your City, State ZIP]"
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
 
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 mt-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">© 2025 Citizens' Digital Rights Campaign</p>
+          <p className="mb-2">© 2025 Nuke Campaign</p>
           <p className="text-sm opacity-75">
-            A grassroots movement for digital privacy and transparency
+            A grassroots movement for putting safety back in the hands of the people.
           </p>
         </div>
       </footer>
